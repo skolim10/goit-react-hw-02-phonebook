@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 import styles from './ContactList.module.css';
 
 export const ContactList = ({ contacts, handleDelete }) => (
-  <div className={styles.wraperContactList}>
+  <div>
     <ul className={styles.contactList}>
       {contacts.map((contact, id) => (
         <li key={id} className={styles.contactListItem}>
